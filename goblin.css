@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Caveat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap");
+
+body {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  background: linear-gradient(to top right, #0f2914 30%, #448353 100%);
+}
+main {
+  padding: 30px 70px;
+}
+logo {
+  font-size: 50px;
+}
+.Goblins {
+  font-family: "Caveat", cursive;
+  font-size: 100px;
+}
+
+.submit {
+  border: 1px solid #4a774a;
+  transition-duration: 1s;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  margin-top: 20px;
+  border-radius: 40px;
+  padding: 6px 12px;
+  background-color: #4a774a;
+  padding: 30px;
+}
+.submit1 {
+  border: 1px solid white;
+  transition-duration: 1s;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  margin-top: 20px;
+  border-radius: 40px;
+  padding: 6px 12px;
+  background-color: #4a774a;
+  padding: 30px;
+}
+.submit:hover {
+  transform: translateX(10px);
+}
+.submit1:hover {
+  transform: translateX(10px);
+}
+.list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  justify-content: space-between;
+  width: 1000px;
+}
+
+.list li {
+  margin-right: 10px;
+  padding: 5px;
+  color: white;
+}
+.list li:hover {
+  border-bottom: 2px solid white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-container {
+  display: flex;
+  justify-content: space-between;
+}
+.text-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.social-links {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  font-size: 35px;
+}
+.social-links ion-icon:hover {
+  transform: translateY(-10px);
+  transition-duration: 0.5s;
+}

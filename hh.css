@@ -1,0 +1,7 @@
+.hover-effect {
+  transition: transform 0.3s ease;
+}
+
+.hover-effect:hover {
+  transform: translateX(10px);
+}
